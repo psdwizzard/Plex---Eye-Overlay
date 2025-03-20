@@ -1,0 +1,13 @@
+# Core Dependencies
+customtkinter==5.2.0
+pillow==10.0.0
+opencv-python==4.8.0.74
+mediapipe==0.10.5
+numpy==1.25.2
+plexapi==4.15.1
+requests==2.31.0
+
+# Development Dependencies
+pytest>=7.0.0
+black>=22.0.0
+flake8>=5.0.0 
