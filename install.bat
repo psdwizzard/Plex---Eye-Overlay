@@ -29,6 +29,13 @@ python -m pip install --upgrade pip
 echo Installing dependencies...
 echo Installing core dependencies...
 
+:: Install setuptools first for Python 3.12 compatibility
+pip install setuptools>=60.0.0
+if errorlevel 1 (
+    echo Warning: Failed to install setuptools. Trying without version constraint...
+    pip install setuptools
+)
+
 :: Install each package individually for better error handling
 pip install customtkinter==5.2.0
 if errorlevel 1 (
@@ -48,13 +55,13 @@ if errorlevel 1 (
     pip install opencv-python
 )
 
-pip install mediapipe==0.10.5
+pip install mediapipe==0.10.21
 if errorlevel 1 (
     echo Warning: Failed to install mediapipe. Trying without version constraint...
     pip install mediapipe
 )
 
-pip install numpy==1.25.2
+pip install numpy>=1.25.2,<2.0.0
 if errorlevel 1 (
     echo Warning: Failed to install numpy. Trying without version constraint...
     pip install numpy
