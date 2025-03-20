@@ -1,9 +1,10 @@
 # Core Dependencies
+setuptools>=60.0.0
 customtkinter==5.2.0
 pillow==10.0.0
 opencv-python==4.8.0.74
-mediapipe==0.10.5
-numpy==1.25.2
+mediapipe==0.10.21
+numpy>=1.25.2,<2.0.0
 plexapi==4.15.1
 requests==2.31.0
 
