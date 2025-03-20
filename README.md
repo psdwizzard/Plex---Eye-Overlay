@@ -1,5 +1,5 @@
 # Eye Image Overlay Application
-
+Backup is not currently working. Use it at your own risk. I am not responsible for any damage done to your Plex server.
 An application that detects eyes in images and overlays googly eyes on them for humorous effect.
 
 ![Googly Eyes Example](docs/examples.jpg)
