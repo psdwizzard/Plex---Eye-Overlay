@@ -2,7 +2,7 @@
 
 An application that detects eyes in images and overlays googly eyes on them for humorous effect.
 
-![Googly Eyes Example](docs/example.jpg)
+![Googly Eyes Example](docs/examples.jpg)
 
 ## Features
 
